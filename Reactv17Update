@@ -1,0 +1,9 @@
+useEffect(() => {
+    document.body.addEventListener(
+      "click",
+      () => {
+        setOpen(false);
+      },
+      { capture: true }
+    );
+  }, []);
